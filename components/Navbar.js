@@ -7,7 +7,7 @@ const Navbar = () => {
             <nav className="absolute top-0 flex items-center w-full">
                 <img src="/navbar/Header.png" className="absolute -z-10" />
                 <div className="flex-1 px-2 ml-5">
-                    <Image src="/navbar/tedXSTClogo.svg" width="300%" height="100%" />
+                    <Link href="/"><Image src="/navbar/tedXSTClogo.svg" width="300%" height="100%" /></Link>
                 </div>
                 <div className="dropdown mr-5">
                     <button className="bg-transparent text-gray-100 font-semibold py-2 px-4 rounded inline-flex items-center">
@@ -15,7 +15,7 @@ const Navbar = () => {
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="{2}" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>
-                    <ul class="dropdown-menu absolute hidden text-gray-100 pt-1 right-5 text-right">
+                    <ul className="dropdown-menu absolute hidden text-gray-100 pt-1 right-5 text-right">
                         <Link href="/about"><a className="rounded-t bg-black hover:bg-gray-800 py-4 px-8 block">About TED/TEDx</a></Link>
                         <Link href="/about"><a className="bg-black hover:bg-gray-800 py-4 px-8 block">TEDxStTeresasCollege</a></Link>
                         <Link href="/circles"><a className="bg-black hover:bg-gray-800 py-4 px-8 block">TED Circles</a></Link>

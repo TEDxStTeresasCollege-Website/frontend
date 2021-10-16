@@ -1,14 +1,17 @@
-import Link from 'next/link';
 import Image from 'next/image';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarked, faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
     return (
-        <footer className= "text-gray-100 p-8 bg-black">
-            {/* <div className=""><Image className="absolute -z-10 bottom-0" src="/footer/Footer.png" layout="intrinsic" width="8004" height="3424"></Image></div> */}
-            <div className="grid grid-cols-2 gap-5">
+        <footer className="text-gray-100 relative">
+
+            <div className="absolute -z-20 bottom-0"><img className="bg-cover" src="/footer/Footer.png"></img></div>
+            <div className="absolute -z-10 w-1/3 right-14 bottom-14"><img src="/footer/boat.png"></img></div>
+            <div className="absolute -z-10 bottom-0"><img width="40%" src="/footer/net.png"></img></div>
+
+            <div className="grid grid-cols-2 gap-5 p-10">
                 <div className="">
                     Reach out at :
                     <div className="text-blue-400"><a href="">tedxstteresascollege@gmail.com</a></div>
@@ -39,12 +42,17 @@ const Footer = () => {
                         <a href=""><span><FontAwesomeIcon icon={faLinkedin} className="text-blue-400 ml-2" size="2x" /></span></a>
                     </div>
                 </div>
-                <div className="text-center col-span-2">
-                    This independent TEDx event is operated under the license from TED<br /> Website Created By: XXXXXX
-                </div>
             </div>
+
+            <div className="text-center mx-auto pt-20 pb-5">
+                This independent TEDx event is operated under the license from TED<br /> Website Created By: XXXXXX
+            </div>
+
         </footer>
     );
 }
 
 export default Footer;
+
+
+
