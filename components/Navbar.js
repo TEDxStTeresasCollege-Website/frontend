@@ -16,6 +16,7 @@ const Navbar = () => {
                         </svg>
                     </button>
                     <ul className="dropdown-menu absolute hidden text-gray-100 pt-1 right-5 text-right">
+                        <Link href="/"><a className="rounded-t bg-black hover:bg-gray-800 py-4 px-8 block">Home</a></Link>
                         <Link href="/about"><a className="rounded-t bg-black hover:bg-gray-800 py-4 px-8 block">About TED/TEDx</a></Link>
                         <Link href="/about"><a className="bg-black hover:bg-gray-800 py-4 px-8 block">TEDxStTeresasCollege</a></Link>
                         <Link href="/circles"><a className="bg-black hover:bg-gray-800 py-4 px-8 block">TED Circles</a></Link>
@@ -25,22 +26,6 @@ const Navbar = () => {
                         <Link href="/team"><a className="rounded-b bg-black hover:bg-gray-800 py-4 px-8 block">Meet the Team</a></Link>
                     </ul>
                 </div>
-                {/* <button className='flex p-3 mr-5 hover:bg-gray-700 rounded text-white ml-auto hover:text-white outline-none'>
-                    <svg
-                        className='w-6 h-6'
-                        fill='none'
-                        stroke='currentColor'
-                        viewBox='0 0 24 24'
-                        xmlns='http://www.w3.org/2000/svg'
-                    >
-                        <path
-                            strokeLinecap='round'
-                            strokeLinejoin='round'
-                            strokeWidth={2}
-                            d='M4 6h16M4 12h16M4 18h16'
-                        />
-                    </svg>
-                </button> */}
             </nav>
         </>
     );

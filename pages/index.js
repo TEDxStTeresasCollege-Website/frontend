@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Carousel from '../components/Carousel'
 
 export default function Home() {
+
   return (
     <div>
       <Head>
@@ -64,14 +65,14 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="camera-roll" className="w-full h-screen">
+      <section id="camera-roll" className="w-full mt-20">
         <div className="flex flex-col gap-5 items-center justify-center font-sans text-black min-h-screen mx-auto w-3/4">
-          <h1 className="font-bold text-5xl">Camera Roll</h1>
+          <h1 className="font-bold text-5xl mb-5">Camera Roll</h1>
+          <Carousel />
         </div>
-        <Carousel />
       </section>
 
-      <section id="whatIsTedX" className="w-full h-screen">
+      <section id="whatIsTedX" className="w-full">
         <div className="flex flex-col gap-5 items-center justify-center text-center font-sans text-black min-h-screen mx-auto w-3/4">
           <h1 className="font-bold text-5xl">What is TEDx?</h1>
           <h3 className="text-2xl">In the spirit of ideas worth spreading, TED has created a program called TEDx. TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. Our event is called TEDxStTeresasCollege, where x = independently organized TED event. At our TEDxStTeresasCollege event, TED Talks video and live speakers will combine to spark deep discussion and connection in a small group. The TED Conference provides general guidance for the TEDx program, but individual TEDx events, including ours, are self-organized.</h3>
