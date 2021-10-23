@@ -2,7 +2,7 @@ const TeamCard = ({ name, designation, social }) => {
     return (
         <>
             <div>
-                <img src="https://mdbootstrap.com/img/new/standard/city/031.jpg" class="shadow-xl mb-2 object-cover" alt="" />
+                <img src="https://mdbootstrap.com/img/new/standard/city/031.jpg" className="shadow-xl mb-2 object-cover" alt="" />
                 <div className="text-center">
                     <h5 className="text-xl font-semibold mb-1">{name}</h5>
                     <p className="mb-2">{designation}</p>
