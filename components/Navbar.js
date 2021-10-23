@@ -4,10 +4,10 @@ import Image from 'next/image';
 const Navbar = () => {
     return (
         <>
-            <nav className="absolute top-0 flex items-center w-full">
-                <img src="/navbar/Header.png" className="absolute -z-10" />
+            <nav className="absolute top-0 flex items-center w-full bg-gray-900 lg:bg-transparent">
+                <img src="/navbar/Header.png" className="absolute -z-10 hidden lg:visible" />
                 <div className="flex-1 px-2 ml-5">
-                    <Link href="/"><Image src="/navbar/tedXSTClogo.svg" width="300%" height="100%" /></Link>
+                    <Link href="/"><Image src="/navbar/tedXSTClogo.svg" width="200%" height="100%" /></Link>
                 </div>
                 <div className="dropdown mr-5">
                     <button className="bg-transparent text-gray-100 font-semibold py-2 px-4 rounded inline-flex items-center">
