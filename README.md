@@ -1,5 +1,9 @@
-# frontend
+# Front-end
 Frontend of the website created using Next.js and Tailwind CSS
+
+## Installation reqirements
+1. [Git](https://git-scm.com/)
+2. [Node.js](https://nodejs.org/)
 
 ## Thing to do to get started with this project
 1. Clone the repository
@@ -37,6 +41,12 @@ git push origin <your name>
 ```
 git pull origin <your name>
 ```
+
+# References
+1. [Next.js](https://nextjs.org/)
+2. [Tailwind CSS](https://tailwindcss.com/)
+3. [Git](https://git-scm.com/)
+4. [Node.js](https://nodejs.org/)
 
 ### Any bugs feel free to open an issue
 ### Use github discussion to discuss the project
