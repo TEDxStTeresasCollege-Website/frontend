@@ -31,7 +31,7 @@ export default function Home() {
 
       <section id="about" className="w-full h-screen relative">
         <img className="absolute -z-1 object-cover -top-36" src="/home/background.png" />
-        <div className="flex space-x-32 w-3/4 h-3/4 pt-10 items-center m-auto text-center text-gray-100">
+        <div className="flex flex-wrap gap-5 space-x-32 w-3/4 h-3/4 pt-10 items-center m-auto text-center text-gray-100 justify-center">
           <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex-1">
             <h2 className="text-2xl font-bold mb-2">Up Next ...</h2>
             <div className="pt-4">
@@ -47,7 +47,7 @@ export default function Home() {
               <a href="#">Read More</a>
             </div>
           </div>
-          <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex-1 text-gray-100">
+          <div className="bg-gray-800 p-6 rounded-lg shadow-lg flex-1">
             <h2 className="text-2xl font-bold mb-2">Featured Blog Post</h2>
             <div className="pt-4">
               <p >Lorem ipsum dolor sit amet, consectetuer adipisci</p>

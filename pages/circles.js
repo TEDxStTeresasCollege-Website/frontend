@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Carousel from '../components/carousel'
+import CircleCard from '../components/CircleCards';
 
 const Circles = () => {
     return (
@@ -10,8 +11,9 @@ const Circles = () => {
                 {/* <link rel="icon" href="/favicon.ico" /> */}
             </Head>
 
-            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 min-h-full mt-52 mb-32">
+            <div className="text-center font-sans text-black mx-auto w-3/4 min-h-full mt-52">
                 <h1 className="font-bold text-5xl">Circles Cards</h1>
+                <CircleCard />
             </div>
 
             <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 min-h-full mt-52 mb-32">
