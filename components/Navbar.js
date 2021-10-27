@@ -4,8 +4,8 @@ import Image from 'next/image';
 const Navbar = () => {
     return (
         <>
-            <nav className="absolute top-0 flex items-center w-full bg-black lg:bg-transparent z-10">
-                <img src="/navbar/Header.png" className="absolute -z-10 hidden lg:visible" />
+            <nav className="absolute top-0 flex items-center w-full z-10">
+                <img src="/navbar/Header.png" className="absolute -z-10" />
                 <div className="flex-1 px-2 ml-5">
                     <Link href="/"><Image src="/navbar/tedXSTClogo.svg" width="250%" height="100%" /></Link>
                 </div>
