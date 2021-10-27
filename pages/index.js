@@ -22,7 +22,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="vision" className="w-full h-screen">
+      <section id="vision" className="w-full min-h-full">
         <div className="flex flex-col gap-5 items-center justify-center text-center font-sans text-black min-h-screen mx-auto w-3/4">
           <h1 className="font-bold text-4xl md:text-5xl">Our Vision</h1>
           <h3 className="md:text-2xl">Our vision is to build an exuberant community that is curious and open to different perspectives. We believe that when the Teresian spirit meets TED's ethos, mind blowing ideas erupt.</h3>
@@ -30,8 +30,8 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="w-full min-h-screen relative">
-        <div className="absolute -z-1 h-full w-full"><Image className="relative" src="/home/background.png" layout="fill" objectFit="cover" objectPosition='center' /></div>
+      <section id="about" className="w-full min-h-full relative">
+        <div className="absolute h-full w-full -z-1"><Image className="relative" src="/home/background.png" layout="fill" objectFit="cover" objectPosition='center' /></div>
         <div className="flex flex-wrap gap-5 justify-center items-center md:w-3/4 min-h-screen mx-auto text-center text-gray-100">
           <div className=" bg-gray-800 p-6 rounded-lg shadow-lg m-2">
             <h2 className="text-2xl font-bold mb-2">Up Next ...</h2>
