@@ -9,7 +9,7 @@ export default function Home() {
       <Head>
         <title>TedX STC</title>
         <meta name="description" content="TedX STC" />
-        <link rel="icon" href="/favicon.ico" />
+        {/* <link rel="icon" href="/favicon.ico" /> */}
       </Head>
 
       <section id="home" className="w-full h-screen relative">
