@@ -6,7 +6,7 @@ const Speaker = () => {
             <Head>
                 <title>TedX STC : TedX Speaker</title>
                 <meta name="description" content="TedX STC : TedX Speaker" />
-                {/* <link rel="icon" href="/favicon.ico" /> */}
+                <link rel="icon" href="icons/logo.ico" />
             </Head>
 
             <section id="speaker" className="w-full mt-56 mb-32">

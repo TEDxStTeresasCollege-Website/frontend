@@ -8,7 +8,7 @@ const Circles = () => {
             <Head>
                 <title>TedX STC : TedX Circles</title>
                 <meta name="description" content="TedX STC : TedX Circles" />
-                {/* <link rel="icon" href="/favicon.ico" /> */}
+                <link rel="icon" href="icons/logo.ico" />
             </Head>
 
             <div className="text-center font-sans text-black mx-auto w-3/4 min-h-full mt-52">

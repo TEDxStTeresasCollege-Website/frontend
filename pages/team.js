@@ -9,7 +9,7 @@ const Team = () => {
             <Head>
                 <title>TedX STC : TedX Team</title>
                 <meta name="description" content="TedX STC : TedX Team" />
-                {/* <link rel="icon" href="/favicon.ico" /> */}
+                <link rel="icon" href="icons/logo.ico" />
             </Head>
 
             <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 mt-52 mb-20">

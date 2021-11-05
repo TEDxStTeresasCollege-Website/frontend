@@ -6,7 +6,7 @@ const about = () => {
             <Head>
                 <title>TedX STC : About Us</title>
                 <meta name="description" content="TedX STC : About Us" />
-                {/* <link rel="icon" href="/favicon.ico" /> */}
+                <link rel="icon" href="icons/logo.ico" />
             </Head>
 
             <section id="aboutTed" className="w-full min-h-screen mt-56 mb-32">
