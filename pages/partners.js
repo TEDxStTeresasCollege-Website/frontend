@@ -1,4 +1,6 @@
 import Head from 'next/head';
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
 const Partners = () => {
     return (
@@ -9,10 +11,19 @@ const Partners = () => {
                 <link rel="icon" href="icons/logo.ico" />
             </Head>
 
-            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 mt-52 mb-16">
-                <h1 className="font-bold text-5xl">Partners</h1>
-                <h3 className="text-2xl text-center">A TEDx event is only as phenomenal as the team behind it. Behold, a troupe of carefully selected, brilliant minds, who encompass the essence of TEDx along with a stroke of creativity and enthusiasm. Our 32 volunteers are the hands behind the different parts of every event and together make up the 7 teams of TEDxStTeresasCollege. We proudly stand as one - united by a purpose to spread ideas worth sharing.</h3>
+            <Navbar />
+
+            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 mb-16 mt-40">
+                <h1 className="font-bold text-2xl md:stickytext-5xl">Our Partners</h1>
+                <h3 className="text-sm md:text-2xl text-center">Our vision is to build an exuberant community that is curious and open to different perspectives. We believe that when the Teresian spirit meets TED's ethos, mind blowing ideas erupt.
+                    TEDxStTeresasCollege seeks to ignite enlightening conversations and draw curious minds to our stage to see the world around us in a different light. We visualize a generation where young people
+                    collaborate to spearhead groundbreaking, innovative changes in society through the values they take away from our events. Our aim is to be the confluence of ideals and values that are catalysts for spreading noteworthy ideas.</h3>
+                <h3 className="text-sm md:text-2xl text-center">
+                    Get in touch with us to explore partnership opportunities
+                </h3>
             </div>
+
+            <Footer />
         </>
     );
 }
