@@ -5,11 +5,12 @@ import Image from 'next/image';
 const Navbar = ({ hide }) => {
 
     return (
-        <div className="relative top-0 h-40">
-            <div className={`relative -z-10 w-full h-40 ${hide}`}>
-                <Image className="absolute block object-cover" src="/navbar/navbarbgmobile.svg" layout='fill' />
-            </div>
+        <>
             <nav className="absolute top-0 flex items-center w-full z-10 text-sm">
+                <div className={`absolute -z-10 w-full h-40 ${hide}`}>
+                    <Image className="absolute block object-cover" src="/navbar/navbarbgmobile.svg" layout='fill' />
+                </div>
+
                 <div className="flex-1 px-2 ml-2 md:ml-5">
                     <Link href="/"><Image src="/navbar/tedXSTClogo.svg" width="250%" height="100%" /></Link>
                 </div>
@@ -31,7 +32,7 @@ const Navbar = ({ hide }) => {
                     </ul>
                 </div>
             </nav>
-        </div>
+        </>
     );
 }
 
