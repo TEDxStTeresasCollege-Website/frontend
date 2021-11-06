@@ -1,6 +1,8 @@
 import Head from 'next/head'
 import Slide from '../components/Slide'
-import CircleCard from '../components/CircleCards';
+import CircleCard from '../components/CircleCards'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 const Circles = () => {
     return (
@@ -11,22 +13,26 @@ const Circles = () => {
                 <link rel="icon" href="icons/logo.ico" />
             </Head>
 
-            <div className="text-center font-sans text-black mx-auto w-3/4 min-h-full mt-52">
-                <h1 className="font-bold text-5xl">Circles Cards</h1>
+            <Navbar />
+
+            <div className="text-center font-sans text-black mx-auto w-5/6 md:w-3/4 min-h-full mt-52">
+                <h1 className="font-bold text-2xl md:text-5xl">Circles Cards</h1>
                 <CircleCard />
             </div>
 
-            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 min-h-full mt-52 mb-32">
+            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-5/6 md:w-3/4 min-h-full mt-52 mb-32">
                 <h2 className="text-2xl font-semibold">Learn more about TED Circles</h2>
-                <div className="w-96 h-52 bg-gray-800"></div>
+                <div className="w-full">
+                    <iframe width='100%' height='100%' src="https://www.youtube-nocookie.com/embed/qvoShsSiHuI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
             </div>
 
-            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 min-h-full mt-52 mb-32">
+            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-5/6 md:w-3/4 min-h-full mt-52 mb-32">
                 <h2 className="text-2xl font-semibold">Camera Roll</h2>
                 <Slide />
             </div>
 
-            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 min-h-full mt-52 mb-32">
+            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-5/6 md:w-3/4 min-h-full mt-52 mb-32">
                 <h2 className="text-2xl font-semibold">Our Next Event</h2>
                 <div className="w-96 h-52 bg-gray-800"></div>
                 <h2 className="text-lg">Date : <span></span></h2>
@@ -37,6 +43,8 @@ const Circles = () => {
                     I'm there! Sign me up!
                 </button>
             </div>
+
+            <Footer />
         </>
     );
 }
