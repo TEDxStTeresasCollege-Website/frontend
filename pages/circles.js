@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Carousel from '../components/carousel'
+import Slide from '../components/Slide'
 import CircleCard from '../components/CircleCards';
 
 const Circles = () => {
@@ -23,7 +23,7 @@ const Circles = () => {
 
             <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 min-h-full mt-52 mb-32">
                 <h2 className="text-2xl font-semibold">Camera Roll</h2>
-                <Carousel />
+                <Slide />
             </div>
 
             <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 min-h-full mt-52 mb-32">

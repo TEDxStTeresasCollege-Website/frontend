@@ -65,3 +65,12 @@ a {
   height: auto;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
+
+/* Tailwind Derivatives */
+.link-container {
+  @apply absolute text-gray-100 pt-1 right-1 md:right-5 text-right 
+}
+
+.navbar-link {
+  @apply bg-black hover:bg-gray-800 py-4 px-8 block
+}

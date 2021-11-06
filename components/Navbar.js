@@ -7,8 +7,8 @@ const Navbar = ({ hide }) => {
     return (
         <>
             <nav className="absolute top-0 flex items-center w-full z-10 text-sm">
-                <div className={`absolute -z-10 w-full h-40 ${hide}`}>
-                    <Image className="absolute block object-cover" src="/navbar/navbarbgmobile.svg" layout='fill' />
+                <div className={`absolute -z-10 w-full h-40  ${hide}`}>
+                    <Image className="relative object-cover" src="/navbar/navbarbgmobile.svg" layout='fill' />
                 </div>
 
                 <div className="flex-1 px-2 ml-2 md:ml-5">
