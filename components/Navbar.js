@@ -23,7 +23,7 @@ const Navbar = ({ hide }) => {
                     <ul className="link-container dropdown-menu hidden">
                         <Link href="/"><a className="rounded-t navbar-link">Home</a></Link>
                         <Link href="/about"><a className="navbar-link">About TED/TEDx</a></Link>
-                        <Link href="/about"><a className="navbar-link">TEDxStTeresasCollege</a></Link>
+                        {/* <Link href="/about"><a className="navbar-link">TEDxStTeresasCollege</a></Link> */}
                         <Link href="/circles"><a className="navbar-link">TED Circles</a></Link>
                         <Link href="/partners"><a className="navbar-link">Our Partners</a></Link>
                         <Link href="/blogs"><a className="navbar-link">Blog</a></Link>

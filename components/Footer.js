@@ -4,25 +4,25 @@ import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-sv
 
 const Footer = () => {
     return (
-        <footer className="text-xs md:text-md text-gray-100 relative min-h-full mt-44">
+        <footer className="text-xs md:text-sm text-gray-100 relative min-h-full mt-20 md:mt-0">
             
-            <div className="absolute -z-20 -top-32">
+            <div className="absolute -z-20 -mt-32">
                 <img className="bg-contain mobile" src="mobile/footer/footer.png" loading="eager"></img>
                 <img className="bg-contain web" src="web/footer/footer.png" loading="eager"></img>
             </div>
             <div className="absolute -z-10 w-1/3 right-14 bottom-14 web"><img src="web/footer/boat.png"></img></div>
             <div className="absolute -z-10 bottom-0 web"><img width="40%" src="web/footer/net.png"></img></div>
             
-            <div className="grid grid-cols-2 gap-5 px-5 md:p-10">
+            <div className="grid grid-cols-2 gap-5 px-5 md:p-10 md:mt-56">
                 <div className="text-left">
                     Reach out at :
                     <div className="text-blue-400"><a href="">tedxstteresascollege@gmail.com</a></div>
-                    <div className="py-2">
+                    <div className="py-2 md:float-left md:mr-5">
                         <div className="hover:underline">Organizer</div>
                         Sneha Anna George<br />
                         <a href="tel:+917994262370">+917994262370</a><br />
                     </div>
-                    <div>
+                    <div className="py-2">
                         <div className="hover:underline">Co-Organizer</div>
                         Marianne Joseph<br />
                         <a href="tel:+918078708025">+918078708025</a><br />
@@ -81,15 +81,15 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="text-center mx-auto pt-20 pb-5 w-full md:1/2 px-2">
+            <div className="text-center mx-auto pt-20 pb-5 w-full md:w-1/2 px-2 md:mt-5">
                 This independent event is operated under license from TED<br />
-                Website developed by <a href="">Sharun E Rajeev</a> and <a href="">Gaurav Bhat</a>
+                Website developed by <a className='hover:underline' href="">Sharun E Rajeev</a> and <a className='hover:underline' href="">Gaurav Bhat</a>
             </div>
 
-            <div className="absolute bg-gray-900 text-white rounded text-center w-1/4 p-3 left-1/2 top-10 opacity-0 hover:opacity-100 web">
-                <h3 className="text-lg">Kumbalangi</h3>
-                <p className="text-sm">This quaint fishing hamlet is a must-visit for experiencing Kerala's culture and delectable cuisine in its raw form.</p>
-                <p className="text-sm">Sea sparkle (കവര്) along the backwaters abutting the Arabian sea, dotted with Chinese fishing nets paints a charming picture.</p>
+            <div className="absolute bg-gray-900 text-white rounded text-center md:w-1/4 p-3 left-1/2 top-10 opacity-0 hover:opacity-100">
+                <h3 className="text-sm md:text-lg">Kumbalangi</h3>
+                <p className="text-xs md:text-sm">This quaint fishing hamlet is a must-visit for experiencing Kerala's culture and delectable cuisine in its raw form.</p>
+                <p className="text-xs md:text-sm">Sea sparkle (കവര്) along the backwaters abutting the Arabian sea, dotted with Chinese fishing nets paints a charming picture.</p>
             </div>
 
         </footer>

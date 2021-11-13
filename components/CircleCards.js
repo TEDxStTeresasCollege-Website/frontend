@@ -27,8 +27,8 @@ const CircleCard = () => {
                     </div>
                 </div>
                 <div className="shadow-md top-10 absolute w-60 h-60 md:w-96 md:h-96 bg-card-1 rounded-lg flex justify-center items-center border">
-                    <div className="text-center text-5xl">
-                        <div className="text-5xl font-extrabold text-red-800">TED</div>Circles
+                    <div className="text-center text-3xl">
+                        <div className="text-3xl font-extrabold text-red-800">TED</div>Circles
                     </div>
                 </div>
             </div>
