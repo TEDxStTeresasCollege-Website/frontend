@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <footer className="text-xs md:text-sm text-gray-100 relative min-h-full mt-20 md:mt-0">
             
-            <div className="absolute -z-20 -mt-32">
+            <div className="absolute -z-20 top-0">
                 <img className="bg-contain mobile" src="mobile/footer/footer.png" loading="eager"></img>
                 <img className="bg-contain web" src="web/footer/footer.png" loading="eager"></img>
             </div>
