@@ -7,7 +7,10 @@ const Footer = () => {
     return (
         <footer className="text-xs md:text-md text-gray-100 relative bg-black -z-30 min-h-full mt-44">
 
-            <div className="absolute -z-20 bottom-0"><img className="bg-cover" src="mobile/footer/footer.png"></img></div>
+            <div className="absolute -z-20 -top-32">
+                <img className="bg-contain mobile" src="mobile/footer/footer.png" loading="lazy"></img>
+                <img className="bg-contain web" src="web/footer/footer.png" loading="lazy"></img>
+            </div>
             {/* <div className="absolute -z-10 w-1/3 right-14 bottom-14"><img src="/footer/boat.png"></img></div> */}
             {/* <div className="absolute -z-10 bottom-0"><img width="40%" src="/footer/net.png"></img></div> */}
             {/* <div className="absolute bg-gray-900 text-white rounded text-center w-1/4 p-3 left-1/2 top-10 opacity-0 hover:opacity-100">

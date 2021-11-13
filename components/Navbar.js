@@ -1,4 +1,3 @@
-import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -7,8 +6,9 @@ const Navbar = ({ hide }) => {
     return (
         <>
             <nav className="absolute top-0 flex items-center w-full z-10 text-sm">
-                <div className={`absolute -z-10 w-full h-40  ${hide}`}>
-                    <Image className="relative object-cover" src="/navbar/navbarbgmobile.svg" layout='fill' />
+                <div className={`absolute -z-10 w-full  ${hide}`}>
+                    <img className="relative object-fit mobile" src="/navbar/navbarbgmobile.svg" />
+                    <img className="relative object-fit web" src="/navbar/Header.png" loading='eager' />
                 </div>
 
                 <div className="flex-1 px-2 ml-2 md:ml-5">
