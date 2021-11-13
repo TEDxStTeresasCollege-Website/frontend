@@ -1,23 +1,18 @@
-import Image from 'next/image';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMapMarked } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
     return (
-        <footer className="text-xs md:text-md text-gray-100 relative bg-black -z-30 min-h-full mt-44">
-
+        <footer className="text-xs md:text-md text-gray-100 relative min-h-full mt-44">
+            
             <div className="absolute -z-20 -top-32">
-                <img className="bg-contain mobile" src="mobile/footer/footer.png" loading="lazy"></img>
-                <img className="bg-contain web" src="web/footer/footer.png" loading="lazy"></img>
+                <img className="bg-contain mobile" src="mobile/footer/footer.png" loading="eager"></img>
+                <img className="bg-contain web" src="web/footer/footer.png" loading="eager"></img>
             </div>
-            {/* <div className="absolute -z-10 w-1/3 right-14 bottom-14"><img src="/footer/boat.png"></img></div> */}
-            {/* <div className="absolute -z-10 bottom-0"><img width="40%" src="/footer/net.png"></img></div> */}
-            {/* <div className="absolute bg-gray-900 text-white rounded text-center w-1/4 p-3 left-1/2 top-10 opacity-0 hover:opacity-100">
-                <h3 className="text-lg">Kumbalangi</h3>
-                <p className="text-sm">This quaint fishing hamlet is a must-visit for experiencing Kerala's culture and delectable cuisine in its raw form.</p>
-                <p className="text-sm">Sea sparkle (കവര്) along the backwaters abutting the Arabian sea, dotted with Chinese fishing nets paints a charming picture.</p>
-            </div> */}
+            <div className="absolute -z-10 w-1/3 right-14 bottom-14 web"><img src="web/footer/boat.png"></img></div>
+            <div className="absolute -z-10 bottom-0 web"><img width="40%" src="web/footer/net.png"></img></div>
+            
             <div className="grid grid-cols-2 gap-5 px-5 md:p-10">
                 <div className="text-left">
                     Reach out at :
@@ -89,6 +84,12 @@ const Footer = () => {
             <div className="text-center mx-auto pt-20 pb-5 w-full md:1/2 px-2">
                 This independent event is operated under license from TED<br />
                 Website developed by <a href="">Sharun E Rajeev</a> and <a href="">Gaurav Bhat</a>
+            </div>
+
+            <div className="absolute bg-gray-900 text-white rounded text-center w-1/4 p-3 left-1/2 top-10 opacity-0 hover:opacity-100 web">
+                <h3 className="text-lg">Kumbalangi</h3>
+                <p className="text-sm">This quaint fishing hamlet is a must-visit for experiencing Kerala's culture and delectable cuisine in its raw form.</p>
+                <p className="text-sm">Sea sparkle (കവര്) along the backwaters abutting the Arabian sea, dotted with Chinese fishing nets paints a charming picture.</p>
             </div>
 
         </footer>

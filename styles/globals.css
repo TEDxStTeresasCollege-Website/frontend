@@ -74,3 +74,22 @@ a {
 .navbar-link {
   @apply bg-black hover:bg-gray-800 py-4 px-8 block
 }
+
+/* Media queries */
+@media only screen and (max-width: 600px) {
+  .mobile {
+    display: block;
+  }
+  .web {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .mobile {
+    display: none;
+  }
+  .web {
+    display: block;
+  }
+}
