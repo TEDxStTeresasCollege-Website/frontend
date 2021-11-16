@@ -16,7 +16,7 @@ export default function Home() {
 
       <Navbar hide="opacity-0" />
 
-      <section id="home" className="w-full h-screen relative">
+      <section id="home" className="w-full h-screen relative bg-gray-800">
         <div className="absolute -z-1 h-120 w-full mobile"><Image src="/mobile/home/bg.png" layout="fill" /></div>
         <div className="absolute -z-1 h-120 w-full web"><Image src="/web/home/NightBackground.png" layout="fill" /></div>
         <div className="absolute -z-1 w-1/2 h-1/3 md:h-2/3 top-24 web"><Image className="relative" src="/web/home/Cloud1.png" layout="fill" /></div>
@@ -35,7 +35,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="about" className="w-full min-h-full relative">
+      <section id="about" className="w-full min-h-full relative bg-gray-900">
         <div className="absolute h-full w-full -z-1 mobile">
           <Image className="relative " src="/mobile/home/secondbg.png" layout="fill" objectFit="fit" objectPosition='center' />
         </div>
