@@ -4,8 +4,8 @@ const TedxSTC = () => {
     return (
         <>
             <Head>
-                <title>TedX STC : TedX TedxSTC</title>
-                <meta name="description" content="TedX STC : TedX TedxSTC" />
+                <title>TEDxStTeresasCollege</title>
+                <meta name="description" content="TEDxStTeresasCollege" />
                 <link rel="icon" href="icons/logo.ico" />
             </Head>
 

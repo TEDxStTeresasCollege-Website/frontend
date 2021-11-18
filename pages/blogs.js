@@ -28,8 +28,8 @@ const Blogs = () => {
     return (
         <>
             <Head>
-                <title>TedX STC : TedX Blogs</title>
-                <meta name="description" content="TedX STC : TedX Blogs" />
+                <title>Blogs : TEDxStTeresasCollege</title>
+                <meta name="description" content="Blogs : TEDxStTeresasCollege" />
                 <link rel="icon" href="icons/logo.ico" />
             </Head>
 
@@ -40,7 +40,7 @@ const Blogs = () => {
                 <h3 className="text-sm md:text-lg text-center">A TEDx event is only as phenomenal as the team behind it. Behold, a troupe of carefully selected, brilliant minds, who encompass the essence of TEDx along with a stroke of creativity and enthusiasm. Our 32 volunteers are the hands behind the different parts of every event and together make up the 7 teams of TEDxStTeresasCollege. We proudly stand as one - united by a purpose to spread ideas worth sharing.</h3>
             </div>
 
-            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mx-auto w-3/4 md:-mb-32 h-full mb-20">
+            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mx-auto w-3/4 md:mb-28 h-full mb-20">
                 {data.map((item,index) => {
                     return <BlogCard
                         title={item.title}

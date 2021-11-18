@@ -4,16 +4,18 @@ import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-sv
 
 const Footer = () => {
     return (
-        <footer className="text-xs md:text-sm text-gray-100 relative min-h-full mt-20 md:mt-0">
+        <footer className="text-xs md:text-sm text-gray-100 relative min-h-full">
             
-            <div className="absolute -z-20 top-0">
-                <img className="bg-contain mobile" src="mobile/footer/footer.png" loading="eager"></img>
-                <img className="bg-contain web" src="web/footer/footer.png" loading="eager"></img>
+            <div className="-z-30 absolute w-full h-96 bg-gradient-to-b from-night-shade-1 via-night-shade-2 to-night-shade-3"></div>
+            
+            <div className="absolute -z-20 sizing">
+                <img className="bg-contain mobile" src="mobile/footer/footer.png"></img>
+                <img className="bg-contain web" src="web/footer/footer.png"></img>
             </div>
-            <div className="absolute -z-10 w-1/3 right-14 bottom-14 web"><img src="web/footer/boat.png"></img></div>
-            <div className="absolute -z-10 bottom-0 web"><img width="40%" src="web/footer/net.png"></img></div>
+            {/* <div className="absolute -z-10 w-1/3 right-14 bottom-14 web"><img src="web/footer/boat.png"></img></div>
+            <div className="absolute -z-10 bottom-0 web"><img width="40%" src="web/footer/net.png"></img></div> */}
             
-            <div className="grid grid-cols-2 gap-5 px-5 md:p-10 md:mt-56">
+            <div className="relative grid grid-cols-2 gap-5 p-5 md:p-5">
                 <div className="text-left">
                     Reach out at :
                     <div className="text-blue-400"><a href="">tedxstteresascollege@gmail.com</a></div>
@@ -45,7 +47,8 @@ const Footer = () => {
                         <a href="https://www.linkedin.com/company/tedxstteresascollege"><span><FontAwesomeIcon icon={faLinkedin} className="text-blue-400 ml-2" size="2x" /></span></a>
                     </div>
                 </div>
-                <div className="">
+                <div className="text-right">
+                    <h1 className="py-3">Be the first one to get updates on our latest events</h1>
                     <form action="\home" className="w-full max-w-sm md:ml-auto">
                         <div className="flex items-center mb-2">
                             <div className="w-1/2">
@@ -81,7 +84,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="text-center mx-auto pt-20 pb-5 w-full md:w-1/2 px-2 md:mt-5">
+            <div className="text-center mx-auto pb-5 lg:pt-20 w-full md:w-1/2 px-2 md:mt-5">
                 This independent event is operated under license from TED<br />
                 Website developed by <a className='hover:underline' href="">Sharun E Rajeev</a> and <a className='hover:underline' href="">Gaurav Bhat</a>
             </div>

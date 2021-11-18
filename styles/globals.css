@@ -92,4 +92,11 @@ a {
   .web {
     display: block;
   }
+  .sizing {
+    bottom: 0;
+  }
+}
+
+.ted-sizing {
+  
 }

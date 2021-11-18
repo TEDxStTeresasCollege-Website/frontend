@@ -21,6 +21,9 @@ module.exports = {
         'card-5': '#faad91',
         'card-6': '',
         'card-7': '',
+        'night-shade-1': '#031215',
+        'night-shade-2': '#001f27',
+        'night-shade-3': '#1a4a57'
       }
     },
   },

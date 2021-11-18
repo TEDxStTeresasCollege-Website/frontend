@@ -1,12 +1,17 @@
-const TeamCard = ({ name, designation, social }) => {
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faInstagram} from "@fortawesome/free-brands-svg-icons";
+
+const TeamCard = ({ name, designation, image, url }) => {
     return (
         <>
             <div>
-                <img src="https://mdbootstrap.com/img/new/standard/city/031.jpg" className="shadow-xl mb-2 object-cover" alt="" />
+                <img src={image} className="shadow-xl mb-2 object-cover mx-auto" alt="" />
                 <div className="text-center">
                     <h5 className="text-xl font-semibold mb-1">{name}</h5>
                     <p className="mb-2">{designation}</p>
-                    <button className="bg-purple-500 text-white active:bg-purple-600 font-bold text-xs px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150" type="button">{social}</button>
+                    <div>
+                        <a href={url}><FontAwesomeIcon icon={faInstagram} className="text-pink-800" size="2x" /></a>
+                    </div>
                 </div>
             </div>
         </>

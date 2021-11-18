@@ -11,8 +11,8 @@ const Circles = () => {
         <>
 
             <Head>
-                <title>TedX STC : TedX Circles</title>
-                <meta name="description" content="TedX STC : TedX Circles" />
+                <title>TED Circles : TEDxStTeresasCollege</title>
+                <meta name="description" content="TED Circles : TEDxStTeresasCollege" />
                 <link rel="icon" href="icons/logo.ico" />
             </Head>
 
@@ -62,12 +62,12 @@ const Circles = () => {
 
             <footer className="text-xs md:text-sm text-gray-100 relative min-h-screen w-full md:mt-0">
 
-                <div className="absolute -z-20 md:top-0 bottom-48">
+                <div className="absolute -z-20 top-32 md:top-20 lg:top-0">
                     <img className="bg-contain web" src="circle/footerCircles.png" loading="eager"></img>
                     <img className="bg-contain mobile" src="mobile/footer/circlesFooter.png" loading="eager"></img>
                 </div>
 
-                <div className="absolute -z-20 w-full h-56 bottom-0 bg-black mobile"></div>
+                <div className="absolute -z-20 w-full h-72 bottom-0 bg-black ted-sizing"></div>
 
                 <div className="absolute bottom-0 w-full">
                     <div className="grid grid-cols-2 gap-5 px-5 md:p-10">
