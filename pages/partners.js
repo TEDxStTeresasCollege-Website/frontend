@@ -13,14 +13,15 @@ const Partners = () => {
 
             <Navbar />
 
-            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 mt-40 mb-20">
+            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 min-h-screen">
                 <h1 className="font-bold text-2xl md:text-4xl">Our Partners</h1>
-                <h3 className="text-sm md:text-lg text-center">Our vision is to build an exuberant community that is curious and open to different perspectives. We believe that when the Teresian spirit meets TED's ethos, mind blowing ideas erupt.
-                    TEDxStTeresasCollege seeks to ignite enlightening conversations and draw curious minds to our stage to see the world around us in a different light. We visualize a generation where young people
-                    collaborate to spearhead groundbreaking, innovative changes in society through the values they take away from our events. Our aim is to be the confluence of ideals and values that are catalysts for spreading noteworthy ideas.</h3>
-                <h3 className="text-sm md:text-lg text-center">
+                <h3 className="text-sm md:text-lg text-center">Our sponsors are our partners who help the TEDx vision come to life!</h3>
+                <h3 className="text-sm md:text-lg text-center">This sponsorship is a collaboration to make the world a better place through spreading of compelling ideas and remarkable experiences. TEDxStTeresasCollege will be your launchpad to introduce new ideas to the community with the help of our on-site Ideas Lab.</h3>
+                <h3 className="text-sm md:text-lg text-center">Benefit from associating with the existing community and build global connections that last.</h3>
+                <h3 className="text-sm md:text-lg text-center">We look forward to changing perspectives one Talk at a time; together, with you. </h3>
+                <a href="" className="text-sm md:text-lg text-center hover:underline">
                     Get in touch with us to explore partnership opportunities
-                </h3>
+                </a>
             </div>
 
             <Footer />

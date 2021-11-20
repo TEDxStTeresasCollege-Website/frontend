@@ -13,8 +13,8 @@ const about = () => {
 
             <Navbar />
 
-            <section className="w-full min-h-screen mt-40 md:mt-56 mx-auto mb-10">
-                <div className="flex flex-col gap-5 items-center justify-center text-center font-sans text-black mx-auto w-3/4">
+            <section className="w-full min-h-screen mt-24 md:mt-40 mx-auto mb-10">
+                <div className="flex flex-col gap-5 items-center justify-center min-h-screen text-center font-sans text-black mx-auto w-3/4">
                     <h1 className="font-bold text-2xl md:text-3xl">About TEDx, x=independently organized event</h1>
                     <h3 className="text-sm md:text-lg text-center">In the spirit of ideas worth spreading, TEDx is a program of local, self-organized events that bring people together to share a TED-like experience. At a TEDx event, TED Talks video and live speakers combine to spark deep discussion and connection. These local, self-organized events are branded TEDx, where x = independently organized TED event. The TED Conference provides general guidance for the TEDx program, but individual TEDx events are self-organized. (Subject to certain rules and regulations.)</h3>
                     <h1 className="font-bold text-2xl md:text-3lg">About TED</h1>

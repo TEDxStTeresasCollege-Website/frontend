@@ -34,7 +34,7 @@ const Slide = () => {
                 {images.map((image, index) => (
                     <SwiperSlide key={index}>
                         <div className="swiper-zoom-container">
-                            <img className="block object-cover rounded" src={image} alt="test" />
+                            <img className="block object-cover" src={image} alt="test" />
                         </div>
                     </SwiperSlide>
                 ))}

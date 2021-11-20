@@ -18,47 +18,50 @@ const Circles = () => {
 
             <Navbar />
 
-            <div className="text-center font-sans text-black mx-auto w-5/6 md:w-3/4 min-h-full mt-52">
-                <h1 className="font-bold text-2xl md:text-3xl">Circles Cards</h1>
-                <CircleCard />
-            </div>
+            <main className="bg-gradient-to-t from-white via-pink-200 to-pink-300">
 
-            <div className="text-center font-sans text-black mx-auto w-full p-5 md:w-1/3 min-h-full mt-52 mb-32">
-                <h2 className="text-2xl font-semibold mb-5">Learn more about TED Circles</h2>
-                <div className="">
-                    <iframe className="h-72 w-full rounded mx-auto" src="https://www.youtube-nocookie.com/embed/qvoShsSiHuI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <div className="text-center font-sans text-black mx-auto w-5/6 md:w-3/4 min-h-screen pt-52">
+                    <h1 className="font-bold text-2xl md:text-3xl">Circles Cards</h1>
+                    <CircleCard />
                 </div>
-            </div>
 
-            <div className='absolute right-32 w-56 h-66 web'>
-                <img className='' src="/circle/butterfly.png" loading='lazy' />
-            </div>
-
-            <section id="camera-roll" className="w-full min-h-full my-20">
-                <div className="flex flex-col gap-5 items-center justify-center font-sans text-black min-h-full mx-auto w-full p-2 md:w-1/2">
-                    <h1 className="font-bold text-2xl md:text-3xl mb-5">Camera Roll</h1>
-                    <Slide />
+                <div className="text-white relative flex flex-col items-center justify-center text-center font-san mx-auto w-full min-h-screen mt-5">
+                    <h2 className="text-2xl font-semibold pb-10">Learn more about TED Circles</h2>
+                    <div className="w-3/4 mx-auto">
+                        <iframe className="h-72 w-3/4 rounded mx-auto" src="https://www.youtube-nocookie.com/embed/qvoShsSiHuI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div className='absolute right-10 top-0 w-56 h-66 z-10 web'>
+                        <img className='' src="/circle/butterfly.png" loading='lazy' />
+                    </div>
                 </div>
-            </section>
 
-            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-5/6 md:w-3/4 min-h-full mt-52 mb-32">
-                <h2 className="text-2xl font-semibold">Our Next Event</h2>
-                <div className="w-96 h-52 bg-gray-800"></div>
-                <h2 className="text-lg">Date : <span></span></h2>
-                <h2 className="text-lg">Time : <span></span></h2>
-                <h2 className="text-lg">Venue : <span></span></h2>
-                <h2 className="text-lg">Description<span></span></h2>
-                <button className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
-                    I'm there! Sign me up!
-                </button>
-            </div>
-
-            <div className="relative">
-                <div className='absolute -bottom-72 left-10 md:left-32 w-56 h-66'>
-                    <img className='mobile' src="/circle/girlMobile.png" loading='lazy' />
-                    <img className='web' src="/circle/girlWeb.png" loading='lazy' />
+                <div className="w-full min-h-screen">
+                    <div className="flex flex-col gap-5 items-center justify-center font-sans min-h-full mx-auto w-full p-2 md:w-1/2">
+                        <h1 className="font-bold text-2xl md:text-3xl mb-5">Camera Roll</h1>
+                        <Slide />
+                    </div>
                 </div>
-            </div>
+
+                <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-5/6 md:w-3/4 min-h-full mt-52 mb-32">
+                    <h2 className="text-2xl font-semibold">Our Next Event</h2>
+                    <div className="w-96 h-52 bg-gray-800"></div>
+                    <h2 className="text-lg">Date : <span></span></h2>
+                    <h2 className="text-lg">Time : <span></span></h2>
+                    <h2 className="text-lg">Venue : <span></span></h2>
+                    <h2 className="text-lg">Description<span></span></h2>
+                    <button className="bg-gray-500 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+                        I'm there! Sign me up!
+                    </button>
+                </div>
+
+                <div className="relative">
+                    <div className='absolute -bottom-72 left-10 md:left-32 w-56 h-66'>
+                        <img className='mobile' src="/circle/girlMobile.png" loading='lazy' />
+                        <img className='web' src="/circle/girlWeb.png" loading='lazy' />
+                    </div>
+                </div>
+
+            </main>
 
             <footer className="text-xs md:text-sm text-gray-100 relative min-h-screen w-full md:mt-0">
 
@@ -143,6 +146,7 @@ const Circles = () => {
                         Website developed by <a className='hover:underline' href="">Sharun E Rajeev</a> and <a className='hover:underline' href="">Gaurav Bhat</a>
                     </div>
                 </div>
+
 
             </footer>
 

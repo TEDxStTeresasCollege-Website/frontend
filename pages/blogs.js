@@ -35,20 +35,21 @@ const Blogs = () => {
 
             <Navbar />
 
-            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 mt-56 mb-10">
-                <h1 className="font-bold text-2xl md:text-4xl">Our Blogs</h1>
-                <h3 className="text-sm md:text-lg text-center">A TEDx event is only as phenomenal as the team behind it. Behold, a troupe of carefully selected, brilliant minds, who encompass the essence of TEDx along with a stroke of creativity and enthusiasm. Our 32 volunteers are the hands behind the different parts of every event and together make up the 7 teams of TEDxStTeresasCollege. We proudly stand as one - united by a purpose to spread ideas worth sharing.</h3>
-            </div>
+            <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 pt-44 min-h-screen">
+                <h1 className="font-bold text-2xl md:text-4xl pb-10">Our Blogs</h1>
+                <h3 className="text-sm md:text-lg text-center pb-5">A TEDx event is only as phenomenal as the team behind it. Behold, a troupe of carefully selected, brilliant minds, who encompass the essence of TEDx along with a stroke of creativity and enthusiasm. Our 32 volunteers are the hands behind the different parts of every event and together make up the 7 teams of TEDxStTeresasCollege. We proudly stand as one - united by a purpose to spread ideas worth sharing.</h3>
 
-            <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mx-auto w-3/4 md:mb-28 h-full mb-20">
-                {data.map((item,index) => {
-                    return <BlogCard
-                        title={item.title}
-                        content={item.content}
-                        url={item.url}
-                        imagesrc={item.imagesrc}
-                    />
-                })}
+                <div className="grid lg:grid-cols-3 sm:grid-cols-1 gap-4 mx-auto w-full md:mb-20 h-full mb-10">
+                    {data.map((item, index) => {
+                        return <BlogCard
+                            title={item.title}
+                            content={item.content}
+                            url={item.url}
+                            imagesrc={item.imagesrc}
+                        />
+                    })}
+                </div>
+
             </div>
 
             <Footer />

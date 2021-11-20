@@ -1,6 +1,6 @@
 const BlogCard = ({title, content, url, imagesrc}) => {
     return (
-        <div className="">
+        <div className="mx-auto">
             <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm mb-5">
                 <a href={url}>
                     <img className="rounded-t-lg w-full" src={imagesrc} alt={title} />
