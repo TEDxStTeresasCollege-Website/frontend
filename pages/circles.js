@@ -5,6 +5,7 @@ import Head from 'next/head'
 import Slide from '../components/Slide'
 import CircleCard from '../components/CircleCards'
 import Navbar from '../components/Navbar'
+import circleSlider from "../data/circleSlider";
 
 const Circles = () => {
     return (
@@ -13,22 +14,22 @@ const Circles = () => {
             <Head>
                 <title>TED Circles : TEDxStTeresasCollege</title>
                 <meta name="description" content="TED Circles : TEDxStTeresasCollege" />
-                <link rel="icon" href="icons/logo.ico" />
+                <link rel="icon" href="logo.ico" />
             </Head>
 
             <Navbar />
 
-            <main className="bg-gradient-to-t from-white via-pink-200 to-pink-300">
+            <main className="bg-gradient-to-b from-white via-pink-200 to-pink-300">
 
                 <div className="text-center font-sans text-black mx-auto w-5/6 md:w-3/4 min-h-screen pt-52">
                     <h1 className="font-bold text-2xl md:text-3xl">Circles Cards</h1>
                     <CircleCard />
                 </div>
 
-                <div className="text-white relative flex flex-col items-center justify-center text-center font-san mx-auto w-full min-h-screen mt-5">
+                <div className="text-white relative flex flex-col items-center justify-center text-center md:w-3/4 font-san mx-auto w-full min-h-screen mt-5">
                     <h2 className="text-2xl font-semibold pb-10">Learn more about TED Circles</h2>
-                    <div className="w-3/4 mx-auto">
-                        <iframe className="h-72 w-3/4 rounded mx-auto" src="https://www.youtube-nocookie.com/embed/qvoShsSiHuI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <div className="mx-auto videowrapper">
+                        <iframe src="https://www.youtube-nocookie.com/embed/qvoShsSiHuI?start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div className='absolute right-10 top-0 w-56 h-66 z-10 web'>
                         <img className='' src="/circle/butterfly.png" loading='lazy' />
@@ -38,7 +39,7 @@ const Circles = () => {
                 <div className="w-full min-h-screen">
                     <div className="flex flex-col gap-5 items-center justify-center font-sans min-h-full mx-auto w-full p-2 md:w-1/2">
                         <h1 className="font-bold text-2xl md:text-3xl mb-5">Camera Roll</h1>
-                        <Slide />
+                        <Slide images={ circleSlider }/>
                     </div>
                 </div>
 

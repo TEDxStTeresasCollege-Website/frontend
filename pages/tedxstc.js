@@ -6,7 +6,7 @@ const TedxSTC = () => {
             <Head>
                 <title>TEDxStTeresasCollege</title>
                 <meta name="description" content="TEDxStTeresasCollege" />
-                <link rel="icon" href="icons/logo.ico" />
+                <link rel="icon" href="ico" />
             </Head>
 
             <div className="flex flex-col gap-5 items-center text-center justify-center font-sans text-black mx-auto w-3/4 mt-52">
