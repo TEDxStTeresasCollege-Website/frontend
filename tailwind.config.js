@@ -22,6 +22,7 @@ module.exports = {
         'card-6': '',
         'card-7': '',
         'water': '#0889ab',
+        'water-dark': '#0889ab',
         'ted-red': '#e9280b'
       }
     },

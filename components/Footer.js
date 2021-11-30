@@ -3,14 +3,19 @@ import { faMapMarked } from "@fortawesome/free-solid-svg-icons";
 import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
+    const backgroundFooter = {
+        backgroundColor: "black",
+        color: "white",
+        zIndex: "-10",
+    }
     return (
-        <footer className="w-full text-xs md:text-sm text-white relative min-h-full sans">
+        <footer className="w-full text-xs md:text-sm relative min-h-full sans" style={backgroundFooter}>
 
             <div className="relative -z-20 top-0 w-full h-full">
-                <img className="absolute object-cover w-full h-full block lg:hidden" src="/mobile/footer.png"></img>
+                <img className="absolute object-contain w-full block lg:hidden" src="/mobile/footer.png"></img>
                 <img className="absolute object-contain hidden lg:block" src="/web/footer.png"></img>
                 <div className="relative w-full h-full top-0">
-                    <div className="relative top-0 w-full p-10 pt-16">
+                    <div className="relative top-20 lg:top-0 w-full p-10 pt-16">
                         <div className="flex flex-row">
                             <div className="text-left flex-1">
                                 Reach out at :
